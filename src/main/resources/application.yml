@@ -1,0 +1,1 @@
+spring:  application:    name: Spring Boot Elastic Search Demo  jpa:    properties:      hibernate.jdbc.batch_size: 1000      hibernate.order_inserts: true      hibernate.order_updates: true      hibernate.jdbc.batch_versioned_data: truelogging:  level:    org.springframework.data.elasticsearch.client.WIRE : tracedebug: true
