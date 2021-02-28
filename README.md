@@ -13,7 +13,7 @@ Steps:
 3. Run command: `docker-compose up -d`. This command will start Elasic Search as Docker service
 4. Run Spring Boot project
 
-## API service
+## API services
 Coming soon...
 
 ### Benchmarks
