@@ -1,7 +1,7 @@
 ## Spring Boot and Elastic Search
 This project demonstrates usage of Spring Boot and Elastic Search as primary data store.
 In this demo, I was trying to experiment and do some benchmarks with inserting "a lot" of data
-into Elastic Search and query them in some moment.
+into Elastic Search and query them in some moment. I'm using single Elastic Search node.
 
 ## Getting started
 For starting the project you should install Elastic Search on your local computer or 
