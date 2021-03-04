@@ -13,11 +13,42 @@ Steps:
 3. Run command: `docker-compose up -d`. This command will start Elasic Search as Docker service
 4. Run Spring Boot project
 
-## API services
-Coming soon...
-
 ### Benchmarks
-Coming soon...
+1. Counting calls (319991)   
+Response time - first request: 630ms  
+Response time - other requests: ~12ms
+
+2. Search calls by note start part  
+Response time - first request: 186ms  
+
+3. Search calls by note end part  
+Response time - first request: 700ms  
+Response time - other requests: ~60ms
+
+4. Search calls by customer primary identifier (100 records)  
+Response time - first request: 153ms  
+Response time - other requests: ~70ms  
+
+4.1. Search calls by customer primary identifier (500 records)  
+Response time - first request: 116ms  
+Response time - other requests: ~90ms  
+
+4.2. Search calls by customer primary identifier (10 000 records)  
+Response time - first request: 221ms  
+Response time - other requests: ~200ms
+
+5.1. Search calls by product category name (100 records)  
+Response time - first request: 74ms  
+Response time - other requests: ~40ms  
+
+5.2. Search calls by product category name (500 records)  
+Response time - first request: 79ms  
+Response time - other requests: ~65ms  
+
+5.3. Search calls by product category name (10 000 records)  
+Response time - first request: 202ms  
+Response time - other requests: ~190ms
+
 
 ### Author
 Heril Muratovi?  
