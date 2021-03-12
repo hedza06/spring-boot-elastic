@@ -51,7 +51,7 @@ Response time - other requests: ~190ms
 
 
 ### Author
-Heril Muratovi?  
+Heril Muratović  
 Software Engineer  
 
 Mobile: +38269657962  
